@@ -1,1 +1,1 @@
-worker:  uwsgi --ini sandbox/uwsgi.ini -s 8080
+web:  uwsgi --ini sandbox/uwsgi.ini -s 8080
