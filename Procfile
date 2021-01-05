@@ -1,1 +1,1 @@
-web: python sandbox/manage.py runserver 0.0.0.0:$PORT
+web:  uwsgi --ini tox.ini -s $PORT
